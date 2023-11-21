@@ -25,6 +25,7 @@ class c
     }
 };
 //Most Importent Part
+//In Multiple Inheritance, one class is derived from multiple classes
 class d : public a,public b,public c
 {
     public:

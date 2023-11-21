@@ -7,6 +7,8 @@ public:
     virtual void show() = 0; // pure virtual function
 };
 
+/* A class having at least one virtual function is called a polymorphic type.*/
+
 class Derv1 : public Base
 {
 public:
@@ -15,6 +17,10 @@ public:
         cout << "Derv1 \n";
     }
 };
+
+
+//A class is made abstract by declaring at least one of its functions as pure virtual function.
+
 
 class Derv2 : public Base
 {

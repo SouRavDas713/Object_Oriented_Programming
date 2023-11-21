@@ -1,20 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
-class EEE   //base class 
+class A
 {
+    protected:
+    int a;
     public:
-    void chemistry()
+    int b;
+    void get()
     {
-        cout<<"Welcome To Chemistry Lab"<<endl;
+        cin>>a>>b;
     }
 };
-class CSE : public EEE
+class B : public A
 {
     public:
+    void test()
+    {
+        cout<<a<<" "<<b <<endl;
+    }
 };
 int main()
 {
-    CSE object1;
-    object1.chemistry();
-    return 0;
-} 
+   B ob;
+   ob.get();
+   ob.test();
+   return 0;
+
+}

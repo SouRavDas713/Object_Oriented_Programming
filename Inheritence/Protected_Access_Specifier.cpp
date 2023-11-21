@@ -9,6 +9,7 @@ using namespace std;
         cout<<"Welcome To Chemistry Lab"<<endl;
     }
 };
+//just to remember that protected data can be inherits by derive but in derive class it became private
 class CSE : public EEE
 {
     public:

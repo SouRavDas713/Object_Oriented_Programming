@@ -25,7 +25,7 @@ T1 showarea()     //return will be T1 type
 };
 int main()
 {
-    rect <float,int> A1(4.7,5.9);
+    rect <float,float> A1(4.7,5.9);
     cout<< A1.showarea() <<endl;
     return 0 ;
 }
